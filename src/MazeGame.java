@@ -982,3 +982,9 @@ class ExamplesMazeGame {
         this.game.bSizeY * MazeGame.CELL_SIZE + MazeGame.CELL_SIZE, this.game.tick);
   }
 }
+
+public class MainGame {
+  public static void main(String[] args) {
+
+  }
+}
