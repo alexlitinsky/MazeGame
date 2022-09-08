@@ -983,8 +983,11 @@ class ExamplesMazeGame {
   }
 }
 
-public class MainGame {
+ class Maze {
   public static void main(String[] args) {
+    MazeGame mazeGame = new MazeGame(40, 40);
+    mazeGame.bigBang(mazeGame.bSizeX * MazeGame.CELL_SIZE,
+            mazeGame.bSizeY * MazeGame.CELL_SIZE + MazeGame.CELL_SIZE, mazeGame.tick);
 
   }
 }
